@@ -22,6 +22,7 @@ Cette commande permet de préparer le fichier dans l'attente de sa sauvegarde d�
 Métaphore : vous rangez vos feuilles dans votre classeur.
 
 ATTENTION : NE PAS FAIRE *git add .*
+
 *git add .* permet de préparer tous les fichiers que vous avez modifiés alors que *git add mon_notebook.ipynb* prépare uniquement le fichier spécifié dans la commande.
 N'essayez pas d'envoyer le gros CSV sur le GitHub, ça ne marchera pas !
 
