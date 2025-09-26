@@ -16,16 +16,20 @@ git add . OU git add mon_notebook.ipynb
 
 Cette commande permet de préparer les fichiers dans l'attente de leur sauvegarde définitive. 
 
-Métaphore : vous rangez vos feuilles dans votre classeur.
-
 git add . permet de préparer tous les fichiers que vous avez modifiés alors que git add mon_notebook.ipynb prépare uniquement le fichier spécifié dans la commande.
+
+Métaphore : vous rangez vos feuilles dans votre classeur.
 
 ### 3.2 git commit
 git commit -m "Ajout de la question 3"
 
-Cela permet de sauvegarder en local les fichiers qui avaient été ajoutés précédemment avec un message. Les fichiers sont maintenant sauvegardés en local par l'outil git. Cela permet de suivre en local les différentes versions du fichier par exemple.
+Cela permet de sauvegarder en local les fichiers qui avaient été ajoutés précédemment avec un message. Les fichiers sont maintenant sauvegardés en local par l'outil git. 
+
+Cela permet de suivre en local les différentes versions du fichier par exemple.
 
 Cette étape est nécessaire car il est préférable de sauvegarder vos fichiers pour facilement gérer les conflits par la suite.
+
+Métaphore : vous rangez le classeur dans lequel vous y aviez ranger vos feuilles.
 
 ### 4. Récupérer les nouveautés du repository
 git pull origin main
