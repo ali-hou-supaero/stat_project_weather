@@ -1,5 +1,4 @@
 # stat_project_weather
-Collaborative repository for a statistics project on weather data.
 
 ## Pour collaborer sur ce repository
 Voici la marche à suivre pour que l'on puisse collaborer.
