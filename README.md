@@ -11,6 +11,7 @@ git clone https://github.com/ali-hou-supaero/stat_project_weather.git
 
 ### 3. Sauvegarder vos modifications en local
 git add . OU git add mon_notebook.ipynb
+
 Cette commande permet de préparer les fichiers dans l'attente de leur sauvegarde définitive. Métaphore : vous rangez vos feuilles dans votre classeur.
 git add . permet de préparer tous les fichiers que vous avez modifiés alors que git add mon_notebook.ipynb prépare uniquement le fichier spécifié dans la commande.
 git commit -m "Ajout de la question 3"
@@ -19,6 +20,7 @@ Cette étape est nécessaire car il est préférable de sauvegarder vos fichiers
 
 ### 4. Récupérer les nouveautés du repository
 git pull origin main
+
 Cette commande permet de récupérer les nouveautés du repository qui ont été envoyées sur GitHub en ligne.
 
 ### 5. Résoudre les conflits (s'il y en a)
@@ -28,4 +30,5 @@ A priori, vu que l'on travaille sur des parties séparées, il ne devrait pas y 
 
 ### 6. Envoyer les modifications que vous avez faites en local sur le GitHub en ligne
 git push origin main
+
 Les éventuels conflits entre les modifications locales et la version en ligne ont été résolus en local. Vous pouvez maintenant envoyer le fichier résultant sur le GitHub en ligne.
