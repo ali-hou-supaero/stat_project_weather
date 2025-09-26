@@ -3,21 +3,27 @@
 ## Pour collaborer sur ce repository
 Voici la marche à suivre pour que l'on puisse collaborer.
 
-### 1. Récupérer le repository avec le notebook et les données
+### 1. Récupérer le repository avec le notebook
 *git clone https://github.com/ali-hou-supaero/stat_project_weather.git*
+
+### 1bis. Récupérer les données
+Les données étaient trop lourde pour GitHub. Il faut donc que vous téléchargiez vous même les données et que vous les placiez dans le dossier du projet que vous avez clone : stat_project_weather
+Normalement vous devriez pouvoir les importer sans problème avec le code tant que les données sont dans le même dossier.
 
 ### 2. Travail personnel sur le notebook
 
 ### 3. Sauvegarder vos modifications en local
 
 ### 3.1 git add
-*git add .* OU *git add mon_notebook.ipynb*
+*git add statistics_project.ipynb*
 
-Cette commande permet de préparer les fichiers dans l'attente de leur sauvegarde définitive. 
-
-git add . permet de préparer tous les fichiers que vous avez modifiés alors que git add mon_notebook.ipynb prépare uniquement le fichier spécifié dans la commande.
+Cette commande permet de préparer le fichier dans l'attente de sa sauvegarde définitive. 
 
 Métaphore : vous rangez vos feuilles dans votre classeur.
+
+ATTENTION : NE PAS FAIRE *git add .*
+*git add .* permet de préparer tous les fichiers que vous avez modifiés alors que *git add mon_notebook.ipynb* prépare uniquement le fichier spécifié dans la commande.
+N'essayez pas d'envoyer le gros CSV sur le GitHub, ça ne marchera pas !
 
 ### 3.2 git commit
 *git commit -m "Ajout de la question 3"*
