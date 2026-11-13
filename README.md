@@ -1,3 +1,25 @@
+# Statistical Analysis of Weather Data
+
+Collaborative academic statistics project built around [statistics_project.ipynb](statistics_project.ipynb).
+
+## Repository contents
+
+- `statistics_project.ipynb` — main analysis notebook.
+- `.gitignore` — excluded local files.
+- `README.md` — project orientation and collaboration instructions.
+
+## Data and execution
+
+The weather dataset is not included because of its size. Obtain the original project data separately and place it at the repository root, following the filenames expected by the notebook. The existing repository documentation does not provide a download URL or pinned Python environment; these remain prerequisites for a fresh reproduction.
+
+Open the notebook in a Python/Jupyter environment, inspect its imports and data-loading cells, and install the required dependencies before running it. No numerical result or successful rerun is asserted here.
+
+## Collaboration
+
+Keep large input CSV files out of commits. Commit only the intended notebook changes, synchronize with the team and resolve notebook conflicts before pushing. The original collaboration walkthrough is retained below for continuity.
+
+---
+
 # stat_project_weather
 
 ## Pour collaborer sur ce repository
@@ -53,3 +75,4 @@ A priori, vu que l'on travaille sur des parties séparées, il ne devrait pas y 
 *git push origin main*
 
 Les éventuels conflits entre les modifications locales et la version en ligne ont été résolus en local. Vous pouvez maintenant envoyer le fichier résultant sur le GitHub en ligne.
+
