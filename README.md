@@ -1,22 +1,22 @@
-# Statistical Analysis of Weather Data
+# Analyse statistique de données météorologiques
 
-Collaborative academic statistics project built around [statistics_project.ipynb](statistics_project.ipynb).
+Projet académique collaboratif de statistiques organisé autour de [statistics_project.ipynb](statistics_project.ipynb).
 
-## Repository contents
+## Contenu du dépôt
 
-- `statistics_project.ipynb` — main analysis notebook.
-- `.gitignore` — excluded local files.
-- `README.md` — project orientation and collaboration instructions.
+- `statistics_project.ipynb` — notebook principal d’analyse.
+- `.gitignore` — exclusions des fichiers locaux.
+- `README.md` — présentation et instructions de collaboration.
 
-## Data and execution
+## Données et exécution
 
-The weather dataset is not included because of its size. Obtain the original project data separately and place it at the repository root, following the filenames expected by the notebook. The existing repository documentation does not provide a download URL or pinned Python environment; these remain prerequisites for a fresh reproduction.
+Le jeu de données météorologiques n’est pas inclus en raison de sa taille. Récupérer séparément les données originales du projet et les placer à la racine du dépôt, avec les noms attendus par le notebook. La documentation existante ne fournit ni URL de téléchargement ni environnement Python aux versions verrouillées ; ces éléments restent nécessaires pour reproduire l’analyse.
 
-Open the notebook in a Python/Jupyter environment, inspect its imports and data-loading cells, and install the required dependencies before running it. No numerical result or successful rerun is asserted here.
+Ouvrir le notebook dans un environnement Python/Jupyter, examiner ses imports et ses cellules de chargement, puis installer les dépendances nécessaires avant l’exécution. Aucun résultat numérique ni réexécution réussie n’est affirmé ici.
 
 ## Collaboration
 
-Keep large input CSV files out of commits. Commit only the intended notebook changes, synchronize with the team and resolve notebook conflicts before pushing. The original collaboration walkthrough is retained below for continuity.
+Ne pas inclure les gros CSV d’entrée dans les commits. Enregistrer uniquement les modifications prévues du notebook, se synchroniser avec l’équipe et résoudre les conflits avant tout envoi. Le guide de collaboration original est conservé ci-dessous.
 
 ---
 
